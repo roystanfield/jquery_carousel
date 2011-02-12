@@ -1,0 +1,23 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#carousel {
+  position: relative;
+  display: block;
+}
+
+#carousel #carousel_list img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#carousel #carousel_list {
+  width: 600px;
+  height: 500px;
+}
+
+#carousel #carousel_nav {
+  clear: left;
+}
